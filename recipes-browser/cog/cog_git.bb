@@ -11,9 +11,9 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=bf1229cd7425b302d60cdb641b0ce5fb"
 
 # Please: keep PV to the date of the last update, so the version number
 # is an always increasing number to avoid "version goes backwards" errors.
-PV = "20180515"
-SRCREV = "bab4ad47e9a579727779f2de084ebea36d6b8a1e"
-SRC_URI = " git://github.com/Igalia/cog.git;protocol=https;branch=master \
+PV = "20180516"
+SRCREV = "9c26d4e9d9e1668dc91bea753d34c9d1382309a1"
+SRC_URI = " git://github.com/Igalia/cog.git;protocol=https;branch=linux-dmabuf \
             file://PR12.patch \
           "
 S = "${WORKDIR}/git"
